@@ -58,5 +58,15 @@
     "videoUrl": "https://www.youtube.com/watch?v=S9XUzSSBh8U",
     "titulo": "Ryzen 5 5500 + RTX 4060 Ti - Good Combo?",
     "jogos": {}
+  },
+  "cpu1_gpu4": {
+    "videoUrl": "https://www.youtube.com/watch?v=KISW1yEM8gA",
+    "titulo": "RX 6600 + Ryzen 5 7600X : Test in 12 Games - AMD RX 6600 Gaming",
+    "jogos": {}
+  },
+  "cpu3_gpu2": {
+    "videoUrl": "https://www.youtube.com/watch?v=BIUL8QHdM20",
+    "titulo": "RTX 4070 Super + Ryzen 7 7800X3D : Test in 25 Games in 2025",
+    "jogos": {}
   }
 }
