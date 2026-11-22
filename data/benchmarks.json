@@ -1,0 +1,62 @@
+{
+  "cpu1_gpu1": {
+    "videoUrl": "https://www.youtube.com/watch?v=8qr2bsZUTFs",
+    "titulo": "RTX 4060 Ti + Ryzen 5 7600 : Test in 22 Games In 2025",
+    "jogos": {}
+  },
+  "cpu1_gpu2": {
+    "videoUrl": "https://www.youtube.com/watch?v=gWoa9w3VbSY",
+    "titulo": "RTX 4070 Super  + Ryzen 5 7600 : Test in 18 Games in 2025",
+    "jogos": {}
+  },
+  "cpu1_gpu3": {
+    "videoUrl": "https://www.youtube.com/watch?v=BSfzhVpaCoE",
+    "titulo": "RX 7600 + Ryzen 5 5600 – Worth Buying in Late 2026? (31 Games Tested)",
+    "jogos": {}
+  },
+  "cpu2_gpu2": {
+    "videoUrl": "https://www.youtube.com/watch?v=Mnjllg44rLk",
+    "titulo": "RTX 4070 Super + I5 13400F : Test in 18 Games - RTX 4070 Super Gaming",
+    "jogos": {}
+  },
+  "cpu2_gpu4": {
+    "videoUrl": "https://www.youtube.com/watch?v=PyC8YXs_oWk",
+    "titulo": "RX 6600 + i5 13400F : Test in 14 Games - I5 13400F Gaming",
+    "jogos": {}
+  },
+  "cpu3_gpu1": {
+    "videoUrl": "https://www.youtube.com/watch?v=3AxXUzfNQt4",
+    "titulo": "RTX 4060 Ti + Ryzen 7 7800X3D : Test in 16 Games - RTX 4060Ti Gaming",
+    "jogos": {}
+  },
+  "cpu3_gpu3": {
+    "videoUrl": "https://www.youtube.com/watch?v=8efheRUH18E",
+    "titulo": "RX 7600 vs RTX 4060 | Ryzen 7 7800X3D | Tested in 15 games",
+    "jogos": {}
+  },
+  "cpu3_gpu4": {
+    "videoUrl": "https://www.youtube.com/watch?v=Sldt_R9OJiU",
+    "titulo": "RTX 3060 vs RX 6600 + R7 7800X3D | Test in 7 Games",
+    "jogos": {}
+  },
+  "cpu4_gpu1": {
+    "videoUrl": "https://www.youtube.com/watch?v=-_B_gDI4oVg",
+    "titulo": "INTEL I7 14700 -  NVIDIA RTX 4060 TI  - 9 GAMES TEST ON LATE 2024 END [BEST SETTING] GAMING PC BUILD",
+    "jogos": {}
+  },
+  "cpu4_gpu3": {
+    "videoUrl": "https://www.youtube.com/watch?v=Sre5uYsVRik",
+    "titulo": "AMD Radeon RX 7600 8GB: Testing in 60 Games in 2023",
+    "jogos": {}
+  },
+  "cpu4_gpu4": {
+    "videoUrl": "https://www.youtube.com/watch?v=OVfCsfb7NWI",
+    "titulo": "i7 13700K + RX 6600 - 9 Games tested on ULTRA (1440P)",
+    "jogos": {}
+  },
+  "cpu5_gpu1": {
+    "videoUrl": "https://www.youtube.com/watch?v=S9XUzSSBh8U",
+    "titulo": "Ryzen 5 5500 + RTX 4060 Ti - Good Combo?",
+    "jogos": {}
+  }
+}

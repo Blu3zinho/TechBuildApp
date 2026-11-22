@@ -1,0 +1,38 @@
+name: Atualizar Benchmarks com IA
+
+on:
+  push:
+    paths:
+      - 'data/hardware.json'
+  workflow_dispatch: # Permite rodar manualmente clicando em um botão no GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar bibliotecas
+        run: pip install google-api-python-client google-genai youtube-transcript-api
+
+      - name: Rodar script de IA
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/atualizar_benchmarks.py
+
+      - name: Salvar benchmarks.json atualizado
+        run: |
+          git config user.name "TechBuild Bot"
+          git config user.email "bot@techbuild.app"
+          git add data/benchmarks.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Atualiza benchmarks via IA" && git push)
